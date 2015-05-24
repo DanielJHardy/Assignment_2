@@ -11,7 +11,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Checkers.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\gl_core_4_4.c" />
     <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Checkers.h" />
+    <ClInclude Include="src\glm_usings.h" />
+    <ClInclude Include="src\gl_core_4_4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF37F7EC-02DA-418D-BE47-8B033425CEAE}</ProjectGuid>
@@ -76,7 +85,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Raknet.lib;AntTweakBar.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Raknet.lib;opengl32.lib;AntTweakBar.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
