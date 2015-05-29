@@ -21,10 +21,10 @@ namespace Games
 		virtual void Draw() = 0;
 
 
+
 	public:
 		GLFWwindow* m_window;
 
-	protected:
 		char* m_title;
 		unsigned int m_screenWidth;
 		unsigned int m_screenHeight;

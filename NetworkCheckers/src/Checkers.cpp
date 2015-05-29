@@ -16,6 +16,7 @@ bool Checkers::Startup()
 	//call base's Startup
 	if (Game::Startup() == false)
 		return false;
+
 }
 void Checkers::Shutdown()
 {
@@ -28,6 +29,7 @@ bool Checkers::Update(float a_dt)
 	//call base's update
 	if (Game::Update(a_dt) == false)
 		return false;
+
 
 
 }

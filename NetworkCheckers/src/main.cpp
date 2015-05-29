@@ -5,6 +5,11 @@
 int main()
 {
 	Games::Checkers game;			//game instance
+
+	//set window properties
+	game.m_title = "Checkers";
+	game.m_screenWidth = 1280;
+	game.m_screenHeight = 720;
 	
 	//Start game
 	if (game.Startup() == false)
@@ -28,5 +33,9 @@ int main()
 	
 		//draw
 		game.Draw();
+
+
+		glfwSwapBuffers(game.m_window);
+		glfwPollEvents();
 	}
 }
