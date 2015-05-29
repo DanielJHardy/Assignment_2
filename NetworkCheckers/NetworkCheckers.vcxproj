@@ -15,12 +15,17 @@
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\gl_core_4_4.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\tiny_obj_loader.cc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Board.h" />
+    <ClInclude Include="src\BufferData.h" />
     <ClInclude Include="src\Game.h" />
     <ClInclude Include="src\Checkers.h" />
     <ClInclude Include="src\glm_usings.h" />
     <ClInclude Include="src\gl_core_4_4.h" />
+    <ClInclude Include="src\Piece.h" />
+    <ClInclude Include="src\tiny_obj_loader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EF37F7EC-02DA-418D-BE47-8B033425CEAE}</ProjectGuid>

@@ -5,10 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -21,6 +17,12 @@
     </Filter>
     <Filter Include="Source Files\external">
       <UniqueIdentifier>{b45445ec-67a0-403c-a403-58b077993dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{39cd3754-f8f3-434f-ad97-d51bb0b7e72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actors\Pieces">
+      <UniqueIdentifier>{eadb8581-f55d-4d02-a1f6-bd85296e74b0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +38,9 @@
     <ClCompile Include="src\Checkers.cpp">
       <Filter>Source Files\Game</Filter>
     </ClCompile>
+    <ClCompile Include="src\tiny_obj_loader.cc">
+      <Filter>Source Files\external</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.h">
@@ -49,6 +54,18 @@
     </ClInclude>
     <ClInclude Include="src\Checkers.h">
       <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BufferData.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Board.h">
+      <Filter>Source Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiny_obj_loader.h">
+      <Filter>Source Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Piece.h">
+      <Filter>Source Files\Actors\Pieces</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
