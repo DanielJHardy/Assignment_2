@@ -41,6 +41,12 @@
     <ClCompile Include="src\tiny_obj_loader.cc">
       <Filter>Source Files\external</Filter>
     </ClCompile>
+    <ClCompile Include="src\Piece.cpp">
+      <Filter>Source Files\Actors\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Board.cpp">
+      <Filter>Source Files\Actors</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.h">

@@ -11,10 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\Checkers.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\gl_core_4_4.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Piece.cpp" />
     <ClCompile Include="src\tiny_obj_loader.cc" />
   </ItemGroup>
   <ItemGroup>

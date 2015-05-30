@@ -23,17 +23,14 @@ namespace Actors
 		Rendering::BufferData m_mesh;
 
 		//board properties
-		const unsigned int m_X_spaces = 8;
-		const unsigned int m_Y_spaces = 8;
+		unsigned int m_X_spaces;
+		unsigned int m_Y_spaces;
 
 		float m_tile_width;	//distance between tiles
 
 		//pieces
 		std::vector<Piece> m_black_pieces;
 		std::vector<Piece> m_white_pieces;
-
-
-
 
 
 	};
