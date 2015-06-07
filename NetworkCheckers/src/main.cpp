@@ -32,8 +32,9 @@ int main()
 		shouldContinue = game.Update(deltaTime);
 	
 		//draw
-		game.Draw();
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+		game.Draw();
 
 		glfwSwapBuffers(game.m_window);
 		glfwPollEvents();

@@ -18,15 +18,14 @@ namespace Actors
 		void Update(float a_dt);
 		void Draw();
 
-	private:
-		//model data
-		Rendering::BufferData m_mesh;
+	public:
 
 		//board properties
 		unsigned int m_X_spaces;
 		unsigned int m_Y_spaces;
 
 		float m_tile_width;	//distance between tiles
+
 
 		//pieces
 		std::vector<Piece> m_black_pieces;

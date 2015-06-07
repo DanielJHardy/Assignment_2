@@ -7,6 +7,8 @@
 
 #include "Board.h"
 
+#include "FlyCamera.h"
+
 enum GameStates
 {
 	MENU,
@@ -46,6 +48,9 @@ namespace Games
 
 		//game state
 		GameStates m_gameState;
+
+		//camera
+		FlyCamera m_cam;
 
 	};
 

@@ -4,6 +4,12 @@
 #include "glm_usings.h"
 #include "BufferData.h"
 
+enum Team
+{
+	Black,
+	White
+};
+
 namespace Actors
 {
 	class Piece
@@ -12,15 +18,16 @@ namespace Actors
 		Piece();
 		~Piece();
 
-		void Init();
 		void Update(float a_dt);
 		void Draw();
 
-	private:
-		mat4 m_world;	//world transform
-		bool m_isKing;	//whether piece is a king
+	public:
+		vec3 m_position;
+		vec4 m_color;
 
-		Rendering::BufferData m_mesh;
+		vec2 m_boardPos;	//tile on top of
+
+		bool m_isKing;	//whether piece is a king
 	};
 }
 
